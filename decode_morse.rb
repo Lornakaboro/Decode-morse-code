@@ -36,7 +36,7 @@ def decode_word(morse_code_word)
   decoded_characters = morse_characters.map do |morse_character|
     decode_char(morse_character)
   end
-  decoded_characters.join('')
+  decoded_characters.join
 end
 
 def decode_message(morse_code_message)
