@@ -47,5 +47,4 @@ def decode_message(morse_code_message)
   decoded_words.join(' ')
 end
 
-
 puts decode_message('- . ... -   .. ...   .-   --. --- --- -..   .-. ..- -... .. . ... ')
