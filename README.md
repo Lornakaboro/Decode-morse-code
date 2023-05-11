@@ -32,7 +32,7 @@ decode_morse_code is a simple ruby project that was created to translate the mor
 <details>
 <summary>Ruby</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://rubygems.org/">PostgreSQL</a></li>
   </ul>
 </details>
 
@@ -109,6 +109,7 @@ To run the project, execute the following command:
 
 - Support foe multiple input formats
 - Interactive web-page
+- Add a user menu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
