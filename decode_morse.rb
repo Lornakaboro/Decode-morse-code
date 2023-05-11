@@ -40,7 +40,7 @@ def decode_word(morse_code_word)
 end
 
 def decode_message(morse_code_message)
-  morse_words = morse_code_message.split(' ')
+  morse_words = morse_code_message.split
   decoded_words = morse_words.map do |morse_word|
     decode_word(morse_word)
   end
