@@ -32,15 +32,15 @@ def decode_char(morse_code)
 end
 
 def decode_word(morse_code_word)
-  morse_characters = morse_code_word.split
+  morse_characters = morse_code_word.strip.split(/\s+/)
   decoded_characters = morse_characters.map do |morse_character|
     decode_char(morse_character)
   end
-  decoded_characters.join
+  decoded_characters.join('')
 end
 
 def decode_message(morse_code_message)
-  morse_words = morse_code_message.split
+  morse_words = morse_code_message.split('  ')
   decoded_words = morse_words.map do |morse_word|
     decode_word(morse_word)
   end
